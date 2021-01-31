@@ -1,0 +1,382 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.container-fluid{
+    max-width: 1300px;
+}
+
+
+
+
+.device-detail{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.detail-info{
+    padding-left: 45px;
+}
+
+.detail-supplier{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #575757;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.detail-name{
+    font-family: "Poppins",sans-serif;
+        font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.detail-star-list{
+    margin-bottom: 20px;
+}
+
+.detail-star-list i{
+    font-size: 24px;
+}
+
+.detail-star-list i.star-active{
+    color: #FDBC15;
+}
+
+
+
+.detail-description{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: baseline;
+}
+
+.detail-new-price{
+    font-family: "Poppins",sans-serif;
+        font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #2498FE;
+    margin-right: 24px;
+}
+
+.detail-old-price{
+    font-family: "Poppins",sans-serif;
+        font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+
+    text-decoration-line: line-through;
+}
+
+.detail-number{
+    margin-bottom: 15;
+}
+
+.detail-number-text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 12px;
+
+}
+
+.number-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000;
+}
+
+.number-input{
+    width: 50px;
+    text-align: center;
+    margin: 0 8px;
+    outline: none;
+}
+
+.add-cart-button{
+    position: relative;
+    padding: 12px 24px;
+    padding-left: 52;
+    background: #2498FE;
+    color: #fff;
+    border-radius: 30px;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.add-cart-icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+height: 45px;
+left: 0px;
+top: 0px;
+
+background: #DDF0FE;
+border-radius: 45px;
+}
+
+
+.detail-contact{
+
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+
+}
+
+.detail-contact b{
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #2498FE;
+
+}
+
+.device-image{
+    background: #C4C4C4;
+    height: 100%;
+    width: 100%;
+    min-height: 450px;
+}
+
+
+.tabs .tab-title{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 0;
+    padding-left: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.tabs .tab-title li{
+    position: relative;
+    display: inline-block;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    background: 0 0;
+    padding: 0 40px;
+    border-bottom: 0;
+    margin-top: 13px;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tabs .tab-title li.active{
+    padding-bottom: 0;
+    border-bottom: 2px solid #1E88E5;
+    margin-bottom: -1px;
+    color: #1E88E5;
+}
+
+
+
+.review{
+    padding-top: 24px;
+    margin-bottom: 30px;
+}
+
+.review-total{
+    font-family: "Poppins",sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+}
+.review-total-number{
+    background: #ECF3F8;
+border-radius: 12px;
+padding: 0px 8px;
+
+font-family: "Poppins",sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+color: #2498FE;
+
+margin-left: 8px;
+}
+
+.add-review-button{
+    padding: 13px 32px;
+    background: #2498FE;
+border-radius: 30px;
+color: #fff;
+font-family: "Roboto";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+
+}
+
+
+.user-image{
+    width: 60px;
+height: 60px;
+background: #C4C4C4;
+border-radius: 50px;
+}
+
+.user-info{
+    padding: 10px;
+    text-align: start;
+}
+
+.user-name{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.review-time{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    color: #958E8E;
+    margin: 8px 0;
+}
+
+.review-star-list i{
+    font-size: 18px;
+    color: #000;
+}
+
+.review-star-list i.star-active{
+    color: #FDBC15;
+}
+
+.review-content{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+
+    text-align: left;
+
+}
+
+.tab-content{
+    display: none;
+    min-height: 400px;
+}
+
+.tab-content.active {
+    display: block;
+}
+#content{
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+#rating{
+    border:none;
+    float:left;
+}
+#rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating>label:before{
+    margin:5px;
+    font-size:1.25em;
+    font-family: 'Font Awesome\ 5 Free';
+    display:inline-block;
+    content:"\f005";
+    font-weight: 900;
+}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover, 
+#rating:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{color:#FFED85;}
+
+@media (max-width: 1199px){
+    .device-image{
+        min-height: 400px;
+    }
+
+  }
+
+
+  @media (max-width: 992px){
+    .device-detail.container{
+        
+        max-width: 100%;
+    }
+
+  }
+
+  
+  @media (max-width: 768px){
+    .device-image{
+       min-height: 450PX;
+    }
+    .detail-info{
+        padding-left: 0;
+    }
+  }
+

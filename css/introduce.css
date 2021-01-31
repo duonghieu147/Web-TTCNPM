@@ -1,0 +1,183 @@
+
+
+.introduct{
+    padding-top: 83px;  
+}
+.introduct .title{
+    font-size: 42px;
+    font-weight: 300;
+    color: #42464e;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.introduct .image{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+
+}
+
+.introduct .image img{
+    width: 100%;
+    height: auto;
+}
+
+.introduct ul{
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+
+.introduct ul::before{
+    content: "";
+    position: absolute;
+    height: calc(100% - 5px);
+    background: #99d0ff;
+    width: 1px;
+    left: -16px;
+}
+
+.introduct ul li{
+    position: relative;
+    padding-left: 14px;
+    padding-bottom: 27px;
+}
+
+.introduct ul li::before{
+    content: "";
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #b2dbff;
+    position: absolute;
+    left: -27px;
+}
+
+.introduct ul li::after{
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #0089ff;
+    position: absolute;
+    top: 4px;
+    left: -23px;
+}
+
+.core{
+    background: url(../asset/image/bg-reason.png) no-repeat top center;
+    position: relative;
+    padding-top: 163px;
+}
+
+.core .title{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0 0 46px;
+    text-align: center;
+}
+
+.core .card{
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 40px 0 rgba(13,85,148,.16);
+    padding: 15px 40px;
+    text-align: left;
+    min-height: 250px;
+}
+
+.core .col-12{
+    margin-bottom: 30px;
+}
+
+.core .card .card-title{
+    font-size: 20px;
+    color: #018afe;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+.core .card ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.core .card ul li{
+    font-size: 16px;
+    color: #545a68;
+    position: relative;
+    padding-left: 17px;
+    margin-bottom: 19px;
+}
+
+.core .card ul li::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #018afe;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+.target .title{
+    font-size: 20px;
+    font-weight: 900;
+    color: #42464e;
+    position: relative;
+    line-height: 32px;
+    padding-top: 6px;
+    padding-bottom: 21px;
+    margin-bottom: 15px;
+}
+
+.target ul{
+    padding: 0;
+    list-style: none;
+}
+
+.target ul li{
+    padding-left: 70px;
+    background: url(../asset/icon/icon-checked.png) no-repeat top 4px left;
+    font-size: 16px;
+    line-height: 26px;
+    color: #596a7d;
+    margin: 0 0 32px;
+}
+
+.target .image{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+
+}
+
+.target .image img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px){
+    
+    .core .card {
+        padding: 20px 20px 5px;
+    }
+
+    .core .title{
+        font-size: 32px;
+    }
+    .introduct .title{
+        padding-top: 40px;
+        font-size: 30px;
+    }
+     .introduct ul{
+        margin-left: 30px;
+    }
+}
+

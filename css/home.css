@@ -1,0 +1,335 @@
+.customer{
+    background: linear-gradient(0deg,#ffffff 0%,#baf8df 100%);
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .customer .customer-item{
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .customer .customer-item img{
+    height: 80%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  
+  .customer .customer-title{
+    font-size: 40px;
+    font-weight: 300;
+    color: #42464e;
+    line-height: 1.2;
+    margin: 0 0 7px;
+  
+  }
+  
+  .customer p{
+    font-size: 21px;
+      color: #42464e;
+      line-height: 1.2;
+      font-weight: 300;
+      margin-bottom: 50px;
+  }
+
+  .blog-list{
+    margin: 50px 0;
+  }
+
+  .blog-list .container-title{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .blog-list .blog{
+
+      padding: 16px;
+  }
+
+  .blog-list .image{
+      max-width: 100%;
+      max-height: 275px;
+      text-align: center;
+  }
+
+  .blog-list img{
+      max-width: 100%;
+      height: 275px;
+      object-fit: cover;
+  }
+
+  .blog .blog-header{
+      display: flex;
+      align-items: flex-start;
+  }
+
+  .blog .blog-header .time{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 16px;
+      width: 65px;
+      height: 65px;
+      background: #2498FE;
+border-radius: 50px;
+color: white;
+
+  }
+
+  .blog .blog-header .time .day{
+    display: block;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .blog .blog-header .time .month{
+    display: block;
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 3px;
+    
+    
+  }
+
+  .blog .blog-header .info{
+    width: calc(100% - 65px);
+    padding-left: 16px;
+    padding-top: 16px;
+  }
+
+  .blog .blog-header .info .author{
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #A9A9A9;
+    margin-bottom: 5px;
+  }
+
+  .blog .blog-header .info .title{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    
+  }
+  .wellcome {
+    width: 100%;
+    height: calc(100vh - 85px);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../asset/image/wellcome.jpg");
+    object-fit: contain;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wellcome .title{
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-decoration: none; */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  
+  .border {
+    background-color: white;
+    width: 200px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wellcome .sub-title{
+    margin-top: 20px;
+    color: white;
+    max-width: 1000px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .wellcome .group-buttom{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wellcome .buttom{
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #2ad38b, #21de66);
+    border: 2px solid #10cfac;
+    color: white;
+    border-radius: 50px;
+  }
+
+  .wellcome .outline-buttom{
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #ffff;
+    color: white;
+    border-radius: 50px;
+  }
+
+
+  .management {
+    background-color: #f2f7f8;
+    padding: 50px 0 50px;
+    text-align: center;
+  }
+  
+  .management h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #2ad38b;
+    margin: 0 0 60px;
+  }
+  
+  .management .item {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 3px 5.196px 12px 0 rgba(11, 66, 121, 0.05);
+    height: 100%;
+    padding: 50px 32px 64px;
+    position: relative;
+  }
+  
+  .management .item::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-image: -moz-linear-gradient(to right, #21de66 0%, #2ad38b 100%);
+    background-image: -webkit-linear-gradient(to right, #21de66 0%, #2ad38b 100%);
+    background-image: linear-gradient(to right, #21de66 0%, #2ad38b 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .management .item .icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .management .item h3 {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0 0 13px;
+  }
+  
+  .management .icon {
+    width: 100%;
+    display: block;
+    height: 190px;
+    margin: 0 0 29px;
+  }
+  
+  .management .col-lg-4 {
+    margin-bottom: 30px;
+  }
+  
+
+
+  @media (max-width: 1024px){
+    .wellcome .title{
+        font-size: 46px;
+        padding: 0 20px;
+    }
+
+  }
+
+
+  @media (max-width: 767px){
+    .customer{
+        padding: 50px 0;
+    }
+    .customer .customer-title{
+      font-size: 30px;
+      padding: 0 10px;
+    }
+
+    .customer p{
+        padding: 0 10px;
+    }
+
+      
+    .management h2{
+      font-size: 26px;
+      margin: 0 0 30px;
+    }
+  }
+
+  @media (max-width: 767px){
+    .blog-list .blog{
+      padding: 0;
+      margin-bottom: 16px;
+    }
+  }
+
+  @media (max-width: 600px){
+    .wellcome .title{
+      font-size: 30px;
+      padding: 0 20px;
+  }
+
+  .wellcome .sub-title{
+    font-size: 16px;
+  }
+  .wellcome .buttom{
+    font-size: 16px;
+  }
+  .wellcome .outline-buttom{
+    font-size: 16px;
+  }
+  }
+
+  @media (max-width: 425px){
+    .wellcome .group-buttom{
+      display: block;
+    }
+
+    .wellcome .buttom{
+      width: 200px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+    .wellcome .outline-buttom{
+      width: 200px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }

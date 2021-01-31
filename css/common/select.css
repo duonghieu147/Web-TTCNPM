@@ -1,0 +1,60 @@
+.PSelect{
+
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.PSelect .form-select{
+    position: relative;
+}
+
+.PSelect select{
+    margin-left: 10px;
+    display: block;
+    border:2px solid #d7d7d7;
+    padding: 2px 8px;
+    border-radius: 4px;
+    padding-right: 50px;
+    outline: none;
+
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+}
+
+.PSelect  i{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.PSelect select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+  }
+  
+  /* For IE10 */
+  .PSelect select::-ms-expand {
+    display: none;
+  }
+
+
+  @media (max-width: 400px){
+    
+
+    .PSelect{
+
+        display: block;
+        align-items: center;
+        padding: 8px 12px;
+    }
+
+    .PSelect select{
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+    }
+}
